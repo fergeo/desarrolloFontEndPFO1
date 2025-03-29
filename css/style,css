@@ -1,0 +1,10 @@
+work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 2px;
+    font-style: normal;
+}
+
+h1{
+    font-family: work-sans-font;
+}
