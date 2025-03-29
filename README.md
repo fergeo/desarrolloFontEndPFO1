@@ -16,21 +16,21 @@ Checklist - Práctica Formativa Obligatoria 1
 [X] Proyecto publicado utilizando GitHub Pages.
 [X] En el "README.md" se indica la URL de GitHub Pages.
 • Uso de Google Fonts:
-[ ] Enlace a Google Fonts incluido en la sección "head" del HTML.
-[ ] La tipografía importada se aplica en el sitio.
-[ ] Redacta brevemente tu decisión: ¿Por qué elegiste esa fuente?
-Respuesta: __________________________________________________________
+[X] Enlace a Google Fonts incluido en la sección "head" del HTML.
+[X] La tipografía importada se aplica en el sitio.
+[X] Redacta brevemente tu decisión: ¿Por qué elegiste esa fuente?
+Respuesta: Elegi este tipo de fuente Work Sanspor me parecio correcta para el proyecto.
 • HTML: < 4 de 6 >
-[ ] El documento inicia con la declaración DOCTYPE y usa el atributo lang="es".
-[ ] Se han incluido las metaetiquetas obligatorias: charset y viewport.
-[ ] Se ha defi nido un título descriptivo.
-[ ] Se han vinculado correctamente el archivo CSS y el enlace a Google Fonts.
+[X] El documento inicia con la declaración DOCTYPE y usa el atributo lang="es".
+[+-] Se han incluido las metaetiquetas obligatorias: charset y viewport.
+[X] Se ha definido un título descriptivo.
+[+-] Se han vinculado correctamente el archivo CSS y el enlace a Google Fonts.
 Secciones obligatorias en "main":
-[ ] Barra de navegación ("nav") presente y contiene al menos 3 enlaces.
-[ ] Se han insertado al menos 4 comentarios explicativos en el código HTML.
+[+-] Barra de navegación ("nav") presente y contiene al menos 3 enlaces.
+[+-] Se han insertado al menos 4 comentarios explicativos en el código HTML.
 • CSS:
-[ ] Existe el archivo "styles.css" con estilos personalizados.
-[ ] Se utilizan selectores basados en clases e identifi cadores.
+[+-] Existe el archivo "styles.css" con estilos personalizados.
+[ ] Se utilizan selectores basados en clases e identificadores.
 [ ] La tipografía importada desde Google Fonts se aplica correctamente en todos los elementos.
 Layout y Organización:
 [ ] Se ha organizado el layout (especialmente en la sección "tarjetas") utilizando Flexbox o Grid.
