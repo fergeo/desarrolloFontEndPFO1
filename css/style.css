@@ -1,0 +1,57 @@
+h1{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 2px;
+    font-style: normal;
+}
+
+#sombreMi{
+    display: flex;
+    flex-direction: column;
+}
+
+#contenidoSobreMi{
+    display: flex;
+    flex-direction: row;
+}
+
+#contenidoSobreMi img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+#parrafoSobreMi{
+    margin: 20px;
+    width: 800px;
+}
+
+
+
+.tarjetas{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.tarjeta{
+    width: 200px;
+    height: 150px;
+}
+
+.tarjeta img{
+    width: 70px;
+    height: 90px;
+}
+
+#habilidades{
+    margin-left: 350px;
+    text-align: center;
+}
+
+#contacto{
+    text-align: center;
+    width: 200px;
+    border-color: red;
+    border-radius: 20px;
+}
