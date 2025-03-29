@@ -5,11 +5,17 @@ Link Githuh Pages
 https://fergeo.github.io/desarrolloFontEndPFO1/
 
 Checklist - Práctica Formativa Obligatoria 1
+
 • Estructura del Proyecto:
+
 [X] Archivo "index.html" ubicado en la raíz.
+
 [X] Carpeta "css" que contenga el archivo "styles.css".
+
 [X] (Opcional) Carpeta "img" para recursos gráficos.
+
 [X] Archivo "README.md" creado, que incluya una breve descripción del TP y este checklist.
+
 • Repositorio y Publicación:
 [X] Repositorio en GitHub creado.
 [] Proyecto subido al repositorio.
