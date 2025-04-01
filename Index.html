@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gidole&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>Portfolio Personal</title>
+    </head>
+    <body>
+        
+        <header>
+            <h1>Portfolio Personal</h1>
+
+            <nav>
+                <!--Barra de navegacion de las secciones del Portfolio-->
+                <a href="#sobreMi">Sobre mí"</a>
+                <a href="#proyecto">Proyectos</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </header>
+
+        <main>
+
+            <section id="sombreMi">
+                <div id="tituloSobreMi">
+                    <h2>Sobre Mi</h2>    
+                </div>
+                <div id="contenidoSobreMi">
+                    <img src="img/sobreMi.jpg" alt="Imagen sobre Mi">
+                    <p id="parrafoSobreMi">
+                        Soy Fernando Espindola desarrollador PL/SQL hace 9 años, interiorisandome tambien en el desarrollo Web      
+                        por lo tanto incursionando en lo que es HTML, CSS, Javascript y aprendiendo React.                          <br>
+                        Y a futuro me gustaria seguir dentro del area de desarrollo de software liderando un equipo de desarrollo.        
+                    </p>
+                </div>
+            </section>
+
+            <section class="proyecto">
+                <div class="tarjeta">
+                    <img src="img/react.png" alt="React">
+                    <p>React</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="img/react.png" alt="React">
+                    <p>React</p>
+                </div>
+            </section>
+
+            <section id="habilidades">
+                <table>
+                    <tr>
+                        <td colspan="2">Tecnologias</td>
+                    </tr>
+                    <tr> 
+                        <td>Dominadas</td>
+                        <td>Deseo aprender</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ol>
+                                <li>PL/SQL</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>PHP</li>
+                            </ol>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>React.Js</li>
+                                <li>Node.Js</li>
+                                <li>Vue</li>
+                                <li>TypeScript</li>
+                                <li>TailWind</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+
+            <section id="contacto">
+                <form action="submit">
+                    <input type="text" id="nombre"  placeholder="Tu Nombre">
+                    <input type="text" id="apellido" placeholder="Tu Apellido">
+                    <input type="email" id="email"  placeholder="E-mail"> 
+                    <input type="text"  id="telefeno"   placeholder="Telefono">
+                </form>
+            </section>
+        </main>
+
+        <footer></footer>
+        
+        
+    </body>
+</html>
