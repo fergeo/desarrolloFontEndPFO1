@@ -167,6 +167,8 @@ button{
 /*Estilo para la sección de peliculas favoritas*/
 .pelicula{
     width: 28%;
+    height: 400px;
+    margin-top: 20px;
     text-align: center;
     border-radius: 10px;
     background-color: cadetblue;
@@ -205,6 +207,29 @@ footer{
 #redesSociales{
     justify-content: space-between;
 }
+
+
+/*Utilizacion de media query para el cambio de aspecto en algunas secciones
+para su mejor vizualizacion en dispositivos mas pequeños*/
+@media (max-width: 800px) {
+    #contenidoSobreMi, #peliculasFatvoritas{
+        display: flexbox;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .tarjeta{
+        width: 40%;
+        height: 300px;
+    }
+
+    .pelicula{
+        width: 35%;
+        height: 500px;
+    }
+}
+
+
 
 
 
