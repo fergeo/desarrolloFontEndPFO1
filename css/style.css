@@ -1,11 +1,50 @@
-h1{
+html{
+    margin: 0;
+}
+
+body{
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 2px;
     font-style: normal;
+    color: white;
+
+    padding-left: 60px;
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
+header{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+h1{
+    text-align: center;
+    font-size: 65px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+nav{
+    text-align: end;
+}
+
+nav a{
+    margin-right: 40px;
+}
+
+.texto{
+    font-size: 24px;
+}
+
+
+/*Estilo para la sección de Sobre MI*/
 #sombreMi{
+    padding-bottom: 40px;
     display: flex;
     flex-direction: column;
 }
@@ -22,36 +61,148 @@ h1{
 }
 
 #parrafoSobreMi{
-    margin: 20px;
-    width: 800px;
+    margin-left: 50px;
+    width: 70%;
 }
 
 
-
-.tarjetas{
+/*Estilo para la sección de proyectos*/
+#proyectos{
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
+#proyectos :last-child{
+    margin-top: 20px;
+}
+
 .tarjeta{
+    width: 220px;
+    height: 300px;
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    margin: 0 auto; 
+}
+
+.tarjeta img{
     width: 200px;
     height: 150px;
 }
 
-.tarjeta img{
-    width: 70px;
-    height: 90px;
+.tarjeta p{
+    text-align: justify;
 }
 
+
+/*Estilo para la sección de habilidades*/
 #habilidades{
-    margin-left: 350px;
+    padding-top: 40px;
+}
+
+table{
+    border-style: double;
+    border-width: 2px;
+    border-color: blue;
     text-align: center;
 }
 
+
+/*Estilo para la sección de contacto*/
 #contacto{
+    margin-top: 40px;
+    background-color: aqua;
     text-align: center;
-    width: 200px;
-    border-color: red;
+    width: 600px;
     border-radius: 20px;
+    margin: 0 auto; 
 }
+
+input{
+    width: 480px;
+    height: 30px;
+
+    margin-top: 20px;
+    padding-left: 20px;
+    
+    font-size: 25px;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+}
+
+
+
+#contacto:last-child{
+    margin-bottom: 20px;
+}
+
+button{
+    width: 250px;
+    height: 35px;
+    font-size: 28px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+
+    border-radius: 50px;
+    background-color: blueviolet;
+    color: white;
+}
+
+
+/*Estilo para la sección de peliculas favoritas*/
+#peliculas{
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#peliculas img{
+    width: 210px;
+    height: 240px
+}
+
+#peliculasFatvoritas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pelicula{
+    width: 280px;
+    height: 390px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: cadetblue;
+    padding: 20px;
+}
+
+.pelicula p{
+    text-align: justify;
+}
+
+
+/*Sección Footer*/
+footer{
+    height: 200px;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+#redesSociales{
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+

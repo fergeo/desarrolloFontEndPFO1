@@ -8,6 +8,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Gidole&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
         <link rel="stylesheet" href="css/style.css">
 
         <title>Portfolio Personal</title>
@@ -27,13 +29,14 @@
 
         <main>
 
+            <!--Sección de Sobre Mi. Se detalla un poco mis caracteristicas como desarrollador.*/-->
             <section id="sombreMi">
                 <div id="tituloSobreMi">
                     <h2>Sobre Mi</h2>    
                 </div>
                 <div id="contenidoSobreMi">
                     <img src="img/sobreMi.jpg" alt="Imagen sobre Mi">
-                    <p id="parrafoSobreMi">
+                    <p id="parrafoSobreMi" class="texto">
                         Soy Fernando Espindola desarrollador PL/SQL hace 9 años, interiorisandome tambien en el desarrollo Web      
                         por lo tanto incursionando en lo que es HTML, CSS, Javascript y aprendiendo React.                          <br>
                         Y a futuro me gustaria seguir dentro del area de desarrollo de software liderando un equipo de desarrollo.        
@@ -41,19 +44,25 @@
                 </div>
             </section>
 
-            <section class="proyecto">
+            <!--Sección de Proyectos-->
+            <section id="proyectos">
+                <h2>Proyectos</h2>
                 <div class="tarjeta">
-                    <img src="img/react.png" alt="React">
-                    <p>React</p>
+                    <img src="img/proyectoCaC.png" alt="Proyecto Codo a Codo">
+                    <p>
+                        Proyecto de Codo a Codo del curso Full Stack Java. En la cual se empezo por el desarrollo del front para una plataforma similiar a la de Netflix.
+                    </p>
                 </div>
                 <div class="tarjeta">
-                    <img src="img/react.png" alt="React">
-                    <p>React</p>
+                    <img src="img/encriptadorTexto.png" alt="Encriptador de Texto">
+                    <p>Encriptador de Texto realizado para el curso de Alura para su etapa inicial.</p>
                 </div>
             </section>
 
+            <!--Sección de Habilideades-->
             <section id="habilidades">
-                <table>
+                <h2>Habilidades</h2>
+                <table id="tablaHabilidades" class="texto">
                     <tr>
                         <td colspan="2">Tecnologias</td>
                     </tr>
@@ -84,17 +93,81 @@
                 </table>
             </section>
 
+            <!--Sección de contacto-->
             <section id="contacto">
+                <h2>contacto</h2>
                 <form action="submit">
-                    <input type="text" id="nombre"  placeholder="Tu Nombre">
-                    <input type="text" id="apellido" placeholder="Tu Apellido">
-                    <input type="email" id="email"  placeholder="E-mail"> 
-                    <input type="text"  id="telefeno"   placeholder="Telefono">
+                    <div>
+                        <input type="text" id="nombre"  placeholder="Tu Nombre">
+                    </div>
+                    <div>
+                        <input type="text" id="apellido" placeholder="Tu Apellido">
+                    </div>
+                    
+                    <div>
+                        <input type="email" id="email"  placeholder="E-mail"> 
+                    </div>
+                    
+                    <div>
+                        <input type="text"  id="telefeno"   placeholder="Telefono">
+                    </div>
+
+                    <div>
+                        <button>Submit</button>
+                    </div>
                 </form>
+            </section>
+
+
+            <!--Sección Peliculas Favoritas-->
+            <section id="peliculas">
+                <h2>Peliculas Favoritas</h2>
+
+                <div id="peliculasFatvoritas">
+                    <div class="pelicula">
+                        <img src="img/homeAlone.jpg" alt="Mi Pobre Angelito">
+                        <h3>Mi Pobre Angelito</h3>
+                        <p>
+                            Un travieso niño de ocho años debe proteger su casa de unos ladrones cuando es accidentalmente olvidado en casa por su familia cuando se van de vacaciones de Navidad.
+                        </p>
+                    </div>
+    
+                    <div class="pelicula">
+                        <img src="img/backtoTheFuture.jpg" alt="Volver al Futuro">
+                        <h3>Volver al Futuro</h3>
+                        <p>
+                            Marty McFly, un estudiante de 17 años, es enviado accidentalmente treinta años al pasado en un artefacto inventado por su amigo.
+                        </p>
+                    </div>
+    
+                    <div class="pelicula">
+                        <img src="img/nightAtRouxbury.jpg" alt="Una noche en el Rouxbery">
+                        <h3>Una noche en el Rouxbery</h3>
+                        <p>
+                            Dos hermanos sueñan con tener su propio club de striptease o, al menos, conseguir entrar el más moderno y lujoso de la ciudad: el Roxbury.
+                        </p>
+                    </div>
+                </div>
             </section>
         </main>
 
-        <footer></footer>
+        <!--Pie de Pagina donde se detallan redes sociales-->
+        <footer>
+            <h2>Redes Sociales</h2>
+            <div id="redesSociales">
+                <a href="https://www.instagram.com/fernando_espindola_o/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/fernandoespindolaomastott/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href="https://github.com/fergeo" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </footer>
         
         
     </body>
