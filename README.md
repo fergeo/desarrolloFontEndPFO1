@@ -2,10 +2,12 @@
 Descripción:
 Practica Formatica 1: Desarrollo de una landing page, de un Portfolio Personal. Donde se pone en practica la estrucura de un html, secciones. El uso de CSS.
 
+
 Link Githuh Pages
 https://fergeo.github.io/desarrolloFontEndPFO1/
 
 Checklist - Práctica Formativa Obligatoria 1
+
 
 
 • Estructura del Proyecto:
@@ -20,6 +22,7 @@ Checklist - Práctica Formativa Obligatoria 1
 
 
 • Repositorio y Publicación:
+
 [X] Repositorio en GitHub creado.
 
 [X] Proyecto subido al repositorio.
@@ -27,6 +30,7 @@ Checklist - Práctica Formativa Obligatoria 1
 [X] Proyecto publicado utilizando GitHub Pages.
 
 [X] En el "README.md" se indica la URL de GitHub Pages.
+
 
 
 • Uso de Google Fonts:
@@ -37,6 +41,7 @@ Checklist - Práctica Formativa Obligatoria 1
 
 [X] Redacta brevemente tu decisión: ¿Por qué elegiste esa fuente?
 Respuesta: Elegi el tipo de fuente Underdog, capas no sea muy apropiado para un portfolio, pero busque mas una fuente diferente a las tipicas, pero que no sea ni tan formal ni tan informal.
+
 
 
 • HTML: < 4 de 6 >
@@ -50,11 +55,13 @@ Respuesta: Elegi el tipo de fuente Underdog, capas no sea muy apropiado para un 
 [X] Se han vinculado correctamente el archivo CSS y el enlace a Google Fonts.
 
 
+
 Secciones obligatorias en "main":
 
 [X] Barra de navegación ("nav") presente y contiene al menos 3 enlaces.
 
 [X] Se han insertado al menos 4 comentarios explicativos en el código HTML.
+
 
 
 • CSS:
@@ -66,12 +73,14 @@ Secciones obligatorias en "main":
 [X] La tipografía importada desde Google Fonts se aplica correctamente en todos los elementos.
 
 
+
 Layout y Organización:
 
 [X] Se ha organizado el layout (especialmente en la sección "tarjetas") utilizando Flexbox o Grid.
 
 [X] Redacta: ¿Qué ventajas encontraste al utilizar Flexbox o Grid en tu proyecto?
 Respuesta: Opte por el uso de Flexbox que me parecio mas sencillo para su uso, Flexbox trae la ventaja de organizar secciones en pocas lineas de codigó sin usar demasiado CSS.
+
 
 
 Estilización de Componentes:
@@ -84,6 +93,7 @@ Estilización de Componentes:
 
 [X] Redacta: ¿Qué animación o transición implementaste y por qué consideraste que era adecuada para tu proyecto?
 Respuesta: Lo que utilice fue scale, que me parecio apropiada utilizarla ya que en algunos casos las imagenes no se puede ver correctamente y al utilizar scale se agranda la imagen cuando se pasa el mouse por encima de la imagen.
+
 
 
 • Consideraciones Adicionales:
