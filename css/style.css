@@ -34,7 +34,9 @@ nav{
 }
 
 nav a{
-    margin-right: 40px;
+    margin-right: 10px;
+    font-size: 20px;
+    color: white
 }
 
 .texto{
@@ -55,9 +57,18 @@ nav a{
 }
 
 #contenidoSobreMi img{
-    width: 150px;
-    height: 150px;
+    width: 20%;
+    height: 20%;
     border-radius: 100px;
+}
+
+img{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover, img:focus {
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
 }
 
 #parrafoSobreMi{
@@ -79,8 +90,8 @@ nav a{
 }
 
 .tarjeta{
-    width: 220px;
-    height: 300px;
+    width: 25%;
+    height: 20%;
     padding: 10px;
     border-width: 2px;
     border-style: solid;
@@ -90,8 +101,8 @@ nav a{
 }
 
 .tarjeta img{
-    width: 200px;
-    height: 150px;
+    width: 90%;
+    height: 40%;
 }
 
 .tarjeta p{
@@ -123,8 +134,8 @@ table{
 }
 
 input{
-    width: 480px;
-    height: 30px;
+    width: 80%;
+    height: 40%;
 
     margin-top: 20px;
     padding-left: 20px;
@@ -135,15 +146,12 @@ input{
     color: white;
 }
 
-
-
 #contacto:last-child{
     margin-bottom: 20px;
 }
 
 button{
-    width: 250px;
-    height: 35px;
+    width: 40%;
     font-size: 28px;
 
     margin-top: 20px;
@@ -157,6 +165,14 @@ button{
 
 
 /*Estilo para la sección de peliculas favoritas*/
+.pelicula{
+    width: 28%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: cadetblue;
+    padding: 20px;
+}
+
 #peliculas{
     margin-top: 40px;
     text-align: center;
@@ -164,23 +180,14 @@ button{
 }
 
 #peliculas img{
-    width: 210px;
-    height: 240px
+    width: 90%;
+    height: 50%;
 }
 
 #peliculasFatvoritas{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.pelicula{
-    width: 280px;
-    height: 390px;
-    text-align: center;
-    border-radius: 10px;
-    background-color: cadetblue;
-    padding: 20px;
 }
 
 .pelicula p{
@@ -190,9 +197,9 @@ button{
 
 /*Sección Footer*/
 footer{
-    height: 200px;
     text-align: center;
     background-color: cornflowerblue;
+    padding-bottom: 40px;
 }
 
 #redesSociales{
